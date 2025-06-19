@@ -1,0 +1,14 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  box-sizing: border-box;
+  background-color: #000;
+  color: #fff;
+}
+
+.container {
+  width: 75vw;
+  padding: 15px;
+  margin:15px;
+}

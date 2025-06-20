@@ -6,6 +6,7 @@ calculator.className = 'calculator';
 const display = document.createElement('input');
 display.id = 'display';
 display.className = 'display';
+display.placeholder = '12 + 13';
 
 const buttonContainer = document.createElement('div');
 buttonContainer.className = 'buttonContainer';
@@ -14,12 +15,12 @@ container.appendChild(calculator);
 calculator.appendChild(display);
 calculator.appendChild(buttonContainer);
 
-for (let i = 0; i < 12; i++){
+for (let i = 0; i < 15; i++){
   const button = document.createElement('button');
   button.innerHTML = `${i + 1}`;
   button.className = `button`;
   button.id = `button${i + 1}`;
-  button.addEventListener('click', console.log(button.innerText));
+  button.addEventListener('click', console.log);
   buttonContainer.appendChild(button);
 }
 

@@ -35,14 +35,24 @@
   border-radius: 10px;
 }
 
+.buttonContainer {
+  background-color: transparent;
+  padding-left: 8px;
+  margin: 5px;
+  width: auto;
+  height: calc(75% - 3px);
+}
+
 button {
   width: 55px;
   height: 35px;
   color: #fff;
   margin-top: 10px;
+  margin-right: 5px;
   background-color: #3a3a3a;
   border: 1px solid #929292;
   border-radius: 5px;
+  
 }
 
 button:hover{

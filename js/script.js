@@ -1,3 +1,17 @@
+const container = document.querySelector('.container');
+
+const calculator = document.createElement('div');
+calculator.className = 'calculator';
+
+const display = document.createElement('input');
+display.className = 'display';
+
+const button = document.createElement('button');
+button.className = 'button';
+
+container.appendChild(calculator);
+calculator.appendChild(display);
+calculator.appendChild(button);
 
 
 
@@ -26,8 +40,3 @@ function multiply (num1, num2) {
 function divide (num1, num2) {
   return num1 / num2;
 }
-
-console.log(add(3, 7));
-console.log(subtract(100, 10));
-console.log(multiply(8, 111));
-console.log(divide(1110, 1));

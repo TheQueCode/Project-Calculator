@@ -12,3 +12,40 @@
   padding: 15px;
   margin:15px;
 }
+
+.calculator {
+  width: 50vw;
+  height: 75vh;
+  background-color: #2c2c2c;
+  color: #fff;
+  margin-top: 10px;
+  padding-top: 2px;
+  border-radius: 15px;
+}
+  
+.display {
+  display: block;
+  width: 95%;
+  height: auto;
+  padding: 10px;
+  margin-top: 10px;
+  margin-right: auto;
+  margin-left:auto;
+  border: 1px solid #929292;
+  border-radius: 10px;
+}
+
+button {
+  width: 55px;
+  height: 35px;
+  color: #fff;
+  margin-top: 10px;
+  background-color: #3a3a3a;
+  border: 1px solid #929292;
+  border-radius: 5px;
+}
+
+button:hover{
+  background-color: #414141;
+  cursor: pointer;
+}

@@ -15,7 +15,7 @@ container.appendChild(calculator);
 calculator.appendChild(display);
 calculator.appendChild(buttonContainer);
 
-for (let i = 0; i < 15; i++){
+for (let i = 0; i < 18; i++){
   const button = document.createElement('button');
   button.innerHTML = `${i + 1}`;
   button.className = `button`;

@@ -1,16 +1,17 @@
-const container = document.querySelector('.container');
+const button = document.querySelectorAll('button');
+const display = document.querySelector('input')
+const operator = document.querySelectorAll('operator');
 
-/*
-for (let i = 0; i < 18; i++){
-  const button = document.createElement('button');
-  button.innerHTML = `${i + 1}`;
-  button.className = `button`;
-  button.id = `button${i + 1}`;
-  button.addEventListener('click', console.log);
-  buttonContainer.appendChild(button);
+button.forEach(item => item.addEventListener('click', appendToDisplay))
+operator.forEach(item => item.addEventListener('click', operate))
+
+function appendToDisplay (input) {
+  if (input.target.innerHTML === 'Clear') {
+    display.value = ''
+  } else {
+    display.value += input.target.innerText
+  }
 }
-*/
-
 
 function operate (operator, num1, num2) {
   if(operator === '+') add(num1, num2)

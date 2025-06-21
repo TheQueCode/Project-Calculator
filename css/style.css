@@ -60,15 +60,32 @@ button:hover{
   cursor: pointer;
 }
 
+#clear {
+  background-color: rgb(153, 0, 0);
+}
+
+#clear:hover{
+  background-color: rgb(196, 0, 0);
+}
+
+.operator {
+  background-color: rgb(165, 107, 0);
+}
+
+.operator:hover{
+  background-color: rgb(202, 131, 0);
+}
+
+.equals {
+  background-color: rgb(0, 75, 0);
+}
+
+.equals:hover{
+  background-color: rgb(0, 107, 0);
+}
+
 .widebutton {
   width: 130px;
-  height: 65px;
-  color: #fff;
-  margin-top: 10px;
-  margin-right: 5px;
-  background-color: #3a3a3a;
-  border: 1px solid #929292;
-  border-radius: 5px;
 }
 
 .row{

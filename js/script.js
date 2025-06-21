@@ -1,20 +1,6 @@
 const container = document.querySelector('.container');
 
-const calculator = document.createElement('div');
-calculator.className = 'calculator';
-
-const display = document.createElement('input');
-display.id = 'display';
-display.className = 'display';
-display.placeholder = '12 + 13';
-
-const buttonContainer = document.createElement('div');
-buttonContainer.className = 'buttonContainer';
-
-container.appendChild(calculator);
-calculator.appendChild(display);
-calculator.appendChild(buttonContainer);
-
+/*
 for (let i = 0; i < 18; i++){
   const button = document.createElement('button');
   button.innerHTML = `${i + 1}`;
@@ -23,6 +9,7 @@ for (let i = 0; i < 18; i++){
   button.addEventListener('click', console.log);
   buttonContainer.appendChild(button);
 }
+*/
 
 
 function operate (operator, num1, num2) {

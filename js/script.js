@@ -8,6 +8,8 @@ operator.forEach(item => item.addEventListener('click', operate))
 function appendToDisplay (input) {
   if (input.target.innerHTML === 'Clear') {
     display.value = ''
+  } else if (input.target.innerHTML === 'Backspace') {
+    display.value = console.log('Backspace - Reminder:tobefixed');
   } else {
     display.value += input.target.innerText
   }
